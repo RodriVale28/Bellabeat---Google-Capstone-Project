@@ -1,5 +1,5 @@
 # Case Study 2 - Google Capstone Project
-This project analyzes FitBit data to show the correlations between activity, calories burned and weight changes. Findings of this projects are used to inform BellaBeat about potential marketing strategies.
+This project analyzes Fitbit data to show the correlations between activity, calories burned and weight changes. Findings from this project are used to inform Bellabeat about potential marketing strategies.
 
 ## SQL Work
 **🛠  Skills Used:**
@@ -17,11 +17,11 @@ This project analyzes FitBit data to show the correlations between activity, cal
 **🛠  Skills Used:**
  * Inspected data with VIEW(), HEAD(), and SUMMARY()
  * Summarized and aggregated data(MEAN(), MIN(), MAX())
- * Created visualizations (scatter plots, bar charts) to explore relationship between variables
+ * Created visualizations (scatter plots, bar charts) to explore relationships between variables
 
 **Summary Of Steps**
  * Used aggregation functions to calculate the average of variables such as calories, total steps, weight (kg), and BMI.
- * Calculated minimum and maximun total steps and weight(Kgs).
+ * Calculated minimum and maximum total steps and weight(Kgs).
  * Used scatter plots to explore the relationship between variables such as total steps, calories, and sedentary minutes.
  * Bar graphs were used to compare averages and counts across users, such as weight changes and manual versus automatic tracking
 
@@ -56,7 +56,7 @@ This analysis of the FitBit data highlights several key insights:
  
   * As expected, steps and distance are directly proportional, but the scatter plot also highlights variation in stride length among users.
 
-Consider promoting how Bellabeat can help users turn daily activity into meaningful insights. Encouraging **consistent** tracking of steps, calories, and distance may support healthier habits and weight management. Personalized alerts and visualizations could motivate users to stay active every day.
+Bellabeat could consider promoting how users can turn daily activity into meaningful insights. Encouraging consistent tracking of steps, calories, and distance may support healthier habits and weight management, while personalized alerts and visualizations could motivate users to stay active every day.
 
 ## Things to Consider 
  * Some users may have lost or gained weight, but since not all tracked their activity, these results only reflect those who did.

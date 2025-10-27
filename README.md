@@ -1,5 +1,5 @@
 # Case Study 2 - Google Capstone Project
-This project analyzes an FitBit data to show the correlations between activity, calories burned and weight changes. Findings of this projects are used to inform BellaBeat about potential marketing startegies.
+This project analyzes FitBit data to show the correlations between activity, calories burned and weight changes. Findings of this projects are used to inform BellaBeat about potential marketing strategies.
 
 ## SQL Work
 **🛠  Skills Used:**
@@ -9,19 +9,19 @@ This project analyzes an FitBit data to show the correlations between activity, 
 **Summary of Steps**
   * Checked for duplicates
   * Checked for NULL values and dropped tables
-  * Checked for invalid values (ex: bmi < 0)
+  * Checked for invalid values (ex: BMI < 0)
   * Standardized names
   * Created two tables with appropriate data types
 
-## R Work (PostgreSQL)
-**🛠  Skils Used:**
- * Inspeted data with VIEW(), HEAD(), and SUMMARY()
+## R Work 
+**🛠  Skills Used:**
+ * Inspected data with VIEW(), HEAD(), and SUMMARY()
  * Summarized and aggregated data(MEAN(), MIN(), MAX())
  * Created visualizations (scatter plots, bar charts) to explore relationship between variables
 
 **Summary Of Steps**
  * Used aggregation functions to calculate the average of variables such as calories, total steps, weight (kg), and BMI.
- * Calculated minumum and maxumun total steps and weight(Kgs).
+ * Calculated minimum and maximun total steps and weight(Kgs).
  * Used scatter plots to explore the relationship between variables such as total steps, calories, and sedentary minutes.
  * Bar graphs were used to compare averages and counts across users, such as weight changes and manual versus automatic tracking
 

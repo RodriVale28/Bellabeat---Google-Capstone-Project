@@ -37,8 +37,14 @@ This project analyzes an FitBit data to show the correlations between activity, 
 *This scatter plot summarizes how the number of steps relates directly to the distance traveled.*
 
 
+<p float="left">
+  <img width="500" height="450" alt="Screenshot 2025-10-11 164430" src="https://github.com/RodriVale28/Bellabeat---Google-Capstone-Project/blob/main/Bellabeat%20-Google%20Capstone%20Project/Visualizations/Manual%20vs%20Manual%20Tracking%20by%20User.png?raw=true" />
+  <img width="500" height="450" alt="Screenshot 2025-10-11 164430" src="https://github.com/RodriVale28/Bellabeat---Google-Capstone-Project/blob/main/Bellabeat%20-Google%20Capstone%20Project/Visualizations/Weight%20Change%20per%20User.png?raw=true" />
+</p>
+
 
 <img width="500" height="450" alt="Screenshot 2025-10-11 164430" src="https://github.com/RodriVale28/Bellabeat---Google-Capstone-Project/blob/main/Bellabeat%20-Google%20Capstone%20Project/Visualizations/Manual%20vs%20Manual%20Tracking%20by%20User.png?raw=true" />
+
 <img width="500" height="450" alt="Screenshot 2025-10-11 164430" src="https://github.com/RodriVale28/Bellabeat---Google-Capstone-Project/blob/main/Bellabeat%20-Google%20Capstone%20Project/Visualizations/Weight%20Change%20per%20User.png?raw=true" />
 
 *These charts emphasize the value of consistently tracking activity, as only tracked data allows us to observe trends like weight changes and progress over time.*

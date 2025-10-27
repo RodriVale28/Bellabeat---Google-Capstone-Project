@@ -27,18 +27,20 @@ This project analyzes an FitBit data to show the correlations between activity, 
 
 ## 📊 Visuals
 
-<img width="426" height="171" alt="image" src="https://github.com/RodriVale28/Bellabeat---Google-Capstone-Project/blob/main/Bellabeat%20-Google%20Capstone%20Project/Visualizations/Average%20Steps%20vs%20Average%20Calories.png?raw=true" />
+<img width="500" height="450" alt="image" src="https://github.com/RodriVale28/Bellabeat---Google-Capstone-Project/blob/main/Bellabeat%20-Google%20Capstone%20Project/Visualizations/Average%20Steps%20vs%20Average%20Calories.png?raw=true" />
 
-*This SQL query calculates the number of claims and average total claim amount for each age group, highlighting trends across different customer age ranges.*
-
-
-<img width="563" height="188" alt="image" src="https://github.com/user-attachments/assets/c42115c9-e468-47f4-8186-6d753b2ae6ec" />
-
-*This PivotTable summarizes fraud claims by incident type. It shows both the number of fraudulent claims and the total claim amount for each type.*
+*This scatter plot in R illustrates the relationship between users' average steps and calories, highlighting how the two variables relate proportionally.*
 
 
+<img width="563" height="188" alt="image" src="https://github.com/RodriVale28/Bellabeat---Google-Capstone-Project/blob/main/Bellabeat%20-Google%20Capstone%20Project/Visualizations/Average%20Steps%20vs%20Average%20Total%20Distance.png?raw=true" />
 
-<img width="630" height="501" alt="Screenshot 2025-10-11 164430" src="https://github.com/user-attachments/assets/2c8d6fe9-2525-416d-b1fb-fb88f84f52ea" />
+*This scatter plot summarizes how the number of steps relates directly to the distance traveled.*
+
+
+
+<img width="630" height="501" alt="Screenshot 2025-10-11 164430" src="https://github.com/RodriVale28/Bellabeat---Google-Capstone-Project/blob/main/Bellabeat%20-Google%20Capstone%20Project/Visualizations/Manual%20vs%20Manual%20Tracking%20by%20User.png?raw=true" />
+
+<img width="630" height="501" alt="Screenshot 2025-10-11 164430" src="https://github.com/RodriVale28/Bellabeat---Google-Capstone-Project/blob/main/Bellabeat%20-Google%20Capstone%20Project/Visualizations/Weight%20Change%20per%20User.png?raw=true" />
 
 *This pie chart shows the distribution of fraudulent claims by state. New York and South Carolina account for the highest proportion of fraud cases, together making up nearly 53% of total frauds.*
 
@@ -46,25 +48,24 @@ This project analyzes an FitBit data to show the correlations between activity, 
 
 ## 📝 Conclusion
 
-This analysis of auto insurance claims data reveals several key insights:
+This analysis of the FitBit data highlights several key insights:
 
-  * Age Group Analysis: Customers aged 36–50 have the highest number of claims, indicating a potential focus area for risk assessment and policy adjustments.
+  * Among users who consistently tracked their activity, higher steps and calories burned were associated with weight loss, suggesting that monitoring and activity may support healthier outcomes.
 
-  * Fraudulent Claims: Single Vehicle Collision claims account for the highest number and total value of fraudulent claims, highlighting the need for targeted fraud prevention measures in this category.
+  * Users who were more sedentary burned fewer calories, highlighting the link between inactivity and lower energy expenditure.
  
-  * State Incident Claims and Fraud: About one-third of all fraud claims occur in North Carolina, indicating that newer policyholders in this state may require monitoring to reduce fraudulent claims.
+  * As expected, steps and distance are directly proportional, but the scatter plot also highlights variation in stride length among users.
 
-These findings provide actionable insights for insurance providers to refine their risk management strategies and enhance fraud detection systems.
+Consider promoting how Bellabeat can help users turn daily activity into meaningful insights. Encouraging **consistent** tracking of steps, calories, and distance may support healthier habits and weight management. Personalized alerts and visualizations could motivate users to stay active every day.
 
 ## Things to Consider 
- * Trends observed at the state level might not reflect the full picture, since not every state was represented.
- * Some records contained missing, inconsistent, or incorrect values. For example, three columns with excessive missing data were removed, which may influence aggregated results.
- * Findings reflect only the period included in the dataset; patterns could differ in other periods.
+ * Some users may have lost or gained weight, but since not all tracked their activity, these results only reflect those who did.
+ * Differences in stride length, metabolism, and lifestyle can affect steps, distance, and calories burned.
+ * Extremely high or low values may represent errors or unusual behavior.
+ * Not all users tracked every day, so averages may not reflect total activity.
 
 
-**Note:** The Pivot Tables and charts above are based on SQL queries executed in PostgreSQL
-
-**Data Source:** This project uses data made available by [Auto Insurance Claims Data on Kaggle](https://www.kaggle.com/datasets/buntyshah/auto-insurance-claims-data).
+**Data Source:** This project uses data made available by [FitBit Fitness Tracker Data on Kaggle](https://www.kaggle.com/datasets/arashnic/fitbit).
 
 
 

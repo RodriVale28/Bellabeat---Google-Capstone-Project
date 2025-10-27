@@ -32,17 +32,16 @@ This project analyzes an FitBit data to show the correlations between activity, 
 *This scatter plot in R illustrates the relationship between users' average steps and calories, highlighting how the two variables relate proportionally.*
 
 
-<img width="563" height="188" alt="image" src="https://github.com/RodriVale28/Bellabeat---Google-Capstone-Project/blob/main/Bellabeat%20-Google%20Capstone%20Project/Visualizations/Average%20Steps%20vs%20Average%20Total%20Distance.png?raw=true" />
+<img width="500" height="450" alt="image" src="https://github.com/RodriVale28/Bellabeat---Google-Capstone-Project/blob/main/Bellabeat%20-Google%20Capstone%20Project/Visualizations/Average%20Steps%20vs%20Average%20Total%20Distance.png?raw=true" />
 
 *This scatter plot summarizes how the number of steps relates directly to the distance traveled.*
 
 
 
-<img width="630" height="501" alt="Screenshot 2025-10-11 164430" src="https://github.com/RodriVale28/Bellabeat---Google-Capstone-Project/blob/main/Bellabeat%20-Google%20Capstone%20Project/Visualizations/Manual%20vs%20Manual%20Tracking%20by%20User.png?raw=true" />
+<img width="500" height="450" alt="Screenshot 2025-10-11 164430" src="https://github.com/RodriVale28/Bellabeat---Google-Capstone-Project/blob/main/Bellabeat%20-Google%20Capstone%20Project/Visualizations/Manual%20vs%20Manual%20Tracking%20by%20User.png?raw=true" />
+<img width="500" height="450" alt="Screenshot 2025-10-11 164430" src="https://github.com/RodriVale28/Bellabeat---Google-Capstone-Project/blob/main/Bellabeat%20-Google%20Capstone%20Project/Visualizations/Weight%20Change%20per%20User.png?raw=true" />
 
-<img width="630" height="501" alt="Screenshot 2025-10-11 164430" src="https://github.com/RodriVale28/Bellabeat---Google-Capstone-Project/blob/main/Bellabeat%20-Google%20Capstone%20Project/Visualizations/Weight%20Change%20per%20User.png?raw=true" />
-
-*This pie chart shows the distribution of fraudulent claims by state. New York and South Carolina account for the highest proportion of fraud cases, together making up nearly 53% of total frauds.*
+*These charts emphasize the value of consistently tracking activity, as only tracked data allows us to observe trends like weight changes and progress over time.*
 
 
 
